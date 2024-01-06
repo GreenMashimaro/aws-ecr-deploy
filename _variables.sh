@@ -7,3 +7,5 @@ awsAccountId=
 region=
 ## Amazon ECR > Private registry > Repositories
 reponsitoryName=
+## lambda function name
+lambdaFunctionName=

@@ -1,4 +1,4 @@
-# AWS ECR DEPLOY
+# AWS ECR DEPLOY AND UPDATE LAMBDA FUNCTION
 
 ## USAGE
 
@@ -25,3 +25,5 @@ https://aws.amazon.com/cn/cli/
 https://docs.aws.amazon.com/zh_cn/AmazonECR/latest/userguide/getting-started-cli.html
 
 https://www.runoob.com/docker/docker-container-usage.html
+
+https://awscli.amazonaws.com/v2/documentation/api/2.1.29/reference/lambda/update-function-code.html
