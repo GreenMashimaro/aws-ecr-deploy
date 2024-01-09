@@ -1,4 +1,4 @@
-version=;
+version=
 
 # aws config info
 ## Account settings -> Account ID

@@ -9,7 +9,7 @@ targetImageAndTag=$awsAccountId.dkr.ecr.$region.amazonaws.com/$imageNameAndTag
 echo "version=$version";
 
 # Platform architecture selection arm64
-docker build --platform=linux/arm64 -t $imageNameAndTag .
+docker build --build-arg ARG_VERSION=$version --platform=linux/arm64 -t $imageNameAndTag ../
 
 docker image ls;
 
